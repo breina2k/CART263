@@ -1,0 +1,5 @@
+This is a cozy and simple plant upkeep game made to introduce players into the world of plant care in a low-stakees calming environment. The game has a hand-drawn art style and a natural colour palette to capture the comfortable atmosphere intended. This game emphasizes patience and mindfulness and isn't meant to cause users any stress. Players must manage water, food and light exposure to try and keep their plant alive, while also ensuring they don't overcare for their plant either, creating the perfect balance of plant care.
+
+This game has plenty of room for growth, but as is it exemplifies the topics we learnt in class and how they can be applied to personal ineterests and simple game development. This game makes use of variables, event listeners, accessing HTML through Javascript, functions, timeouts, setIntervals and a simple local storage setup. In the future, animations, more plant states and a plant library could be included to enhance the game experience.
+
+While coding I made use of W3Schools, lots of Stack Overflow forums, recommendations from Sabine and Mathilde, and in class examples!

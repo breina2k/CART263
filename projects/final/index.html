@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plant Upkeep Game</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div id="light">
+        <input type="range" id="lightslider" class="slider" orient="vertical" min="0" max="100" value="50">
+    </div>
+
+    <div id="instructions">
+        <img src="assets/instructions.png" alt="instructionsimg" id="instructionsimg">
+    </div>
+
+    <div id="instructionsbox" style="display: none;">
+        <div id="instructionboxcontent">
+            <div class="messageboxes">
+                <button id="exitinstructions" class="imgbuttons">
+                    <img src="assets/x.png" alt="xImg" id="xbuttonimg">
+                </button>
+                <img src="assets/gameinstructions.png" alt="gameInstructionsImg" id="gameinstructionsimg">
+            </div>
+        </div>
+    </div>
+
+    <div class="plantcontainer">
+        <div id="plant">
+            <img src="assets/planthealthy.png" alt="planthealthy" id="planthealthy" style="display: block;">
+            <img src="assets/plantdead.png" alt="plantdead" id="plantdead" style="display: none;">
+        </div>
+        <div id="health"></div>
+    </div>
+
+    <div id="buttons">
+        <div id="water">
+            <button type="button" class="imgbuttons">
+                <img src="assets/waterButton.png" alt="waterButtonImg" id="waterbuttonimg">
+            </button>
+        </div>
+        <div id="food">
+            <button type="button" class="imgbuttons">
+                <img src="assets/foodButton.png" alt="foodButtonImg" id="foodbuttonimg">
+            </button>
+        </div>
+    </div>
+
+    <div id="deadmessage" style="display: none;">
+        <div id="deadmessagecontent">
+            <div class="messageboxes">
+                <img src="assets/deadmessage.png" alt="deadMessageImg" id="deadmessageimg">
+                <button id="resetbutton" class="imgbuttons">
+                    <img src="assets/reset.png" alt="resetButtonImg" id="resetbuttonimg">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/prototype.js"></script>
+</body>
+
+</html>
